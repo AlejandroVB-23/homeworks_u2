@@ -75,3 +75,30 @@ elif action_text == "DELETE":
         print("Error: Contact Not found")
 else:
     print("Select a valid option")
+
+"""
+# Test Case 1 (Normal - ADD):
+# Input:
+# action_text = "ADD"
+# name = "ANA"
+# phone = "11122"
+# Expected Output:
+# Contact Saved: ANA, 11122
+# New Contact Book: {'JAIME': '12345', 'ELIAS': '98765', 'MARIO': '45678', 'ANA': '11122'}
+
+
+# Test Case 2 (Borde - SEARCH contacto existente):
+# Input:
+# action_text = "SEARCH"
+# name = "MARIO"
+# Expected Output:
+# Phone: 45678
+
+
+# Test Case 3 (Error - DELETE contacto inexistente):
+# Input:
+# action_text = "DELETE"
+# name = "PEDRO"
+# Expected Output:
+# Error: Contact Not found
+"""
