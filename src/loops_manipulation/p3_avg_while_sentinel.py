@@ -43,3 +43,31 @@ if count == 0:
 else:
     print(f"Count: {count}")
     print(f"Average: {avg_value}")
+
+"""
+# Test Case 1:
+# Input:
+# 5
+# 10
+# -1
+# Output:
+# Count: 2
+# Average: 7.5
+
+# Test Case 2:
+# Input:
+# -1
+# Output:
+# Error No Data
+
+# Test Case 3:
+# Input:
+# a
+# 3
+# 3
+# -1
+# Output:
+# Error Invalid Input
+# Count: 2
+# Average: 3.0
+"""

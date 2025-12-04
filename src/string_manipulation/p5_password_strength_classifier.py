@@ -60,3 +60,17 @@ if not password_input ==  "":
     print("The password must contain at least 4 characaters")
 else:
    print("No empty entries allowed")
+
+"""
+# Caso 1: Entrada vacía
+# Input: "" 
+# Output esperado: "No empty entries allowed"
+
+# Caso 2: Contraseña corta débil
+# Input: "Ab1" 
+# Output esperado: "The password must contain at least 4 characaters"
+
+# Caso 3: Contraseña fuerte
+# Input: "Abc123$%" 
+# Output esperado: "Password strength: strong"
+"""

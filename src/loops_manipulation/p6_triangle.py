@@ -47,3 +47,40 @@ try:
         print(row) 
 except:
     print("Invalid Input")
+"""
+# Test Case 1
+# Input:
+# 3
+# Output esperado:
+# Normal Pattern
+# *
+# **
+# ***
+# Inverted Pattern
+# ***
+# **
+# *
+
+# Test Case 2
+# Input:
+# 5
+# Output esperado:
+# Normal Pattern
+# *
+# **
+# ***
+# ****
+# *****
+# Inverted Pattern
+# *****
+# ****
+# ***
+# **
+# *
+
+# Test Case 3
+# Input:
+# hola
+# Output esperado:
+# Invalid Input
+"""

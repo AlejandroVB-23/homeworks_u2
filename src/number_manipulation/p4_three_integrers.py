@@ -38,3 +38,38 @@ try:
     print(f"All Even: {all_even}")
 except: 
     print("All numbers must be integers")
+
+"""
+Test Cases:
+1) Caso de prueba: todos pares
+#    Entrada:
+#       Number 1: 4
+#       Number 2: 10
+#       Number 3: 6
+#    Salida esperada:
+#       Sum: 20
+#       Average: 6.6666666667
+#       Max: 10
+#       Min: 4
+#       All Even: True
+#
+# 2) Caso de prueba: mezcla de positivos y negativos
+#    Entrada:
+#       Number 1: -3
+#       Number 2: 7
+#       Number 3: 1
+#    Salida esperada:
+#       Sum: 5
+#       Average: 1.6666666667
+#       Max: 7
+#       Min: -3
+#       All Even: False
+#
+# 3) Caso de prueba: entrada inválida
+#    Entrada:
+#       Number 1: 5
+#       Number 2: hola
+#       Number 3: 8
+#    Salida esperada:
+#       All numbers must be integers
+"""

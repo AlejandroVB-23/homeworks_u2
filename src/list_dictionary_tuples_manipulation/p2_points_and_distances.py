@@ -37,3 +37,39 @@ try:
     print(f"Midpoint: {midpoint}")
 except:
     print("Error Invalid Input")
+
+"""
+Test Cases 
+# 1) Caso normal con números enteros
+# Input:
+#   x1 = 0
+#   y1 = 0
+#   x2 = 3
+#   y2 = 4
+# Output esperado:
+#   Point A: (0.0, 0.0)
+#   Point B: (3.0, 4.0)
+#   Distance: 5.0
+#   Midpoint: (1.5, 2.0)
+
+# 2) Caso con números decimales
+# Input:
+#   x1 = 1.2
+#   y1 = -2.5
+#   x2 = 4.8
+#   y2 = 3.1
+# Output esperado:
+#   Point A: (1.2, -2.5)
+#   Point B: (4.8, 3.1)
+#   Distance: 6.589....
+#   Midpoint: (3.0, 0.3)
+
+# 3) Caso de error (entrada inválida)
+# Input:
+#   x1 = hola
+#   y1 = 5
+#   x2 = 2
+#   y2 = 3
+# Output esperado:
+#   Error Invalid Input
+"""

@@ -74,20 +74,4 @@ except:
 # quantity = 2
 # Expected Output:
 # Product not found
-
-
-# Test Case 4 (Error - cantidad inválida):
-# Input:
-# product_name = "chair"
-# quantity = 0
-# Expected Output:
-# Enter a valid quantity
-
-
-# Test Case 5 (Error - entrada no numérica):
-# Input:
-# product_name = "apple"
-# quantity = "xyz"
-# Expected Output:
-# Enter a valid quantity
 """
