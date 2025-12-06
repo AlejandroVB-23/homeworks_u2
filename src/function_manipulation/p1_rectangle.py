@@ -40,3 +40,33 @@ try:
     print("Error Invalid Input")
 except:
   print("Error Invalid Input")
+
+"""
+Test Cases
+
+1) Caso Normal
+Entrada:
+    Enter the width: 5
+    Enter the height: 3
+Salida esperada:
+    Area: 15.0
+    Perimeter: 16.0
+
+2) Caso Borde (uno de los valores = 0, debería marcar error
+pero el código actual NO lo detecta por el uso incorrecto del if)
+Entrada:
+    Enter the width: 0
+    Enter the height: 4
+Salida esperada lógica esperada:
+    Error Invalid Input
+Salida real del programa:
+    Area: 0.0
+    Perimeter: 8.0
+
+3) Caso Error (entrada no numérica)
+Entrada:
+    Enter the width: hola
+    Enter the height: 5
+Salida esperada:
+    Error Invalid Input
+"""
