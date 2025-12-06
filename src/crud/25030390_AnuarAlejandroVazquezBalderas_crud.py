@@ -160,6 +160,19 @@ if __name__ == "__main__":
     main()
 
 """
+Test Cases
+1) Crear, listar y leer
+- Crear un item válido, luego listar y confirmar que aparece.
+- Leer por id y verificar que coinciden sus datos.
+
+2) Actualizar y leer
+- Crear un item, modificar sus valores y luego leerlo
+  para confirmar que los cambios sí se aplicaron.
+
+3) Eliminar y verificar
+- Crear un item, eliminarlo y luego intentar leerlo
+  para comprobar que ya no existe en el inventario.
+
 CONCLUSION:
 El uso de funciones permitió separar cada operación del CRUD, lo cual
 hizo el código más claro y evitó repetir lógica en el menú principal.
